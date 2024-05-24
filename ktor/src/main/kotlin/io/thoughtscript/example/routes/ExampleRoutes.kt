@@ -1,6 +1,6 @@
-package io.example.routes
+package io.thoughtscript.example.routes
 
-import io.example.domain.*
+import io.thoughtscript.example.domain.*
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*
@@ -36,6 +36,20 @@ fun Route.exampleRouting() {
                     )
 
             call.respond(example)
+        }
+
+        put {
+            val example = call.receive<Example>()
+            var lookup = exampleStorage.find { it.id == example.id }
+
+            lookup?.let {
+                it.id = example.id
+                it.comment = example.comment
+                call.respond(it)
+
+            } ?: run {
+                call.respondText("Example doesn't exist", status = HttpStatusCode.BadRequest)
+            }
         }
 
         post {

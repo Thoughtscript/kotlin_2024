@@ -1,9 +1,11 @@
-package io.example.domain
+package io.thoughtscript.example.domain
 
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Example(val id: String, val comment: String)
+// var and val inside a data class also restrict mutability
+// (even with automatically generated getters and setters)
+data class Example(var id: String, var comment: String)
 
 // Define an in-memory store
 // https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list/#kotlin.collections.MutableList

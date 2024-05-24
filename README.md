@@ -13,10 +13,10 @@ docker-compose up
 
 ## TODO 
 
-- [ ] Practice Kotlin basics
+- [x] Practice Kotlin basics
 - [x] Implement API endpoints in `Ktor`
-- [ ] Review some `Gradle` basics
-  - [ ] Add **Version Variables**
+- [x] Review some `Gradle` basics
+  - [x] Verify adding **Version Variables** in KTS
 - [x] Add newest `Gradle` with `Kotlin` and dependencies
   - [x] Update Desktop `Gradle` version to `8.7` to correctly initialize the `ktor` image
   - [x] Correctly initialize the `ktor` image with `8.7`
@@ -29,5 +29,10 @@ docker-compose up
 ## Resources and Links 
 
 1. https://kotlinlang.org/
-1. https://github.com/ktorio/ktor-documentation/tree/2.3.11/codeSnippets/snippets/tutorial-http-api
-2. https://stackoverflow.com/questions/37231560/best-way-to-null-check-in-kotlin
+2. https://github.com/ktorio/ktor-documentation/tree/2.3.11/codeSnippets/snippets/tutorial-http-api
+3. https://stackoverflow.com/questions/37231560/best-way-to-null-check-in-kotlin
+4. https://www.baeldung.com/kotlin/void-type#:~:text=Nothing%20is%20a%20special%20type,the%20default%20return%20type%20Unit.
+5. https://dev.to/nfrankel/the-pitfall-of-implicit-returns-41ln
+6. https://www.geeksforgeeks.org/returns-jumps-and-labels-in-kotlin/
+7. https://dev.to/vtsen/understand-kotlin-function-literal-with-receiver-by-example-1d13
+8. https://kotlinlang.org/docs/lambdas.html

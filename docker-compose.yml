@@ -9,6 +9,15 @@ services:
       - testnet
     restart: unless-stopped
 
+  kotlin:
+    build:
+      context: ./kotlin
+      dockerfile: dockerfile
+    ports:
+      - '8888:8888'
+    networks:
+      - testnet
+
 networks:
   testnet:
     driver: bridge

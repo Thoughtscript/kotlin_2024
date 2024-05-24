@@ -1,6 +1,6 @@
-package io.example.config
+package io.thoughtscript.example.config
 
-import io.example.routes.*
+import io.thoughtscript.example.routes.*
 import io.ktor.server.application.*
 import io.ktor.server.routing.*
 

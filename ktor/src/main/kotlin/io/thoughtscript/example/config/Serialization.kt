@@ -1,4 +1,4 @@
-package io.example.config
+package io.thoughtscript.example.config
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*

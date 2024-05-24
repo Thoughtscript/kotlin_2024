@@ -1,7 +1,7 @@
-package io.example
+package io.thoughtscript.example
 
 import io.ktor.server.application.*
-import io.example.config.*
+import io.thoughtscript.example.config.*
 
 fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 
