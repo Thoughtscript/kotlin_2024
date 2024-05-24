@@ -18,6 +18,8 @@ docker-compose up
 - [ ] Review some `Gradle` basics
   - [ ] Add **Version Variables**
 - [x] Add newest `Gradle` with `Kotlin` and dependencies
+  - [x] Update Desktop `Gradle` version to `8.7` to correctly initialize the `ktor` image.
+  - [x] Correctly initialize the `ktor` image with `8.7`
 - [x] Dockerize everything with correct commands
   - [x] Ensure `Kotlin` installed correctly
   - [x] Verify compilation and build only requires plugins not `kotlinc`
