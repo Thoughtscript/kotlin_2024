@@ -58,7 +58,8 @@ fun classExamples(): Unit {
     exampleA.getFields()
 
     // Can't call statically like this:
-    // ExampleA.getFields()
+    // ImplicitGettersAndSetters.getFields()
+
     // https://www.baeldung.com/kotlin/static-methods
     // Use  @JvmStatic and companion object per: https://github.com/Thoughtscript/cockroachdb-kotlin-client
     ImplicitGettersAndSetters().getFields() // But can call like this - basically a throwaway non-static object
