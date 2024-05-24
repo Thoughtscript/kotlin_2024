@@ -3,7 +3,20 @@
 [![](https://img.shields.io/badge/Kotlin-1.9.22-purple.svg)](https://kotlinlang.org/) [![](https://img.shields.io/badge/ktor-2.3.11-purple.svg)](https://ktor.io/docs/welcome.html)
 [![](https://img.shields.io/badge/gradle-8.7-blue.svg)](https://docs.gradle.org/current/userguide/userguide.html)
 
-Experiments with Kotlin and Ktor using Docker and Gradle.
+Experiments with `Kotlin` and `Ktor` using `Docker` and `Gradle`.
+
+## TODO 
+
+- [ ] Practice Kotlin basics
+- [ ] Implement API endpoints in `Ktor`
+- [ ] Review some `Gradle` basics
+  - [ ] Add **Version Variables**
+- [x] Add newest `Gradle` with `Kotlin` and dependencies
+- [x] Dockerize everything with correct commands
+  - [x] Ensure `Kotlin` installed correctly
+  - [x] Verify compilation and build only requires plugins not `kotlinc`
+  - [x] Determine if `kotlinc` is required at all (and if it's even present)
+- [x] Review `Gradle` build topics specific to `Kotlin`
 
 ## Resources and Links 
 
