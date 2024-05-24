@@ -14,7 +14,7 @@ docker-compose up
 ## TODO 
 
 - [ ] Practice Kotlin basics
-- [ ] Implement API endpoints in `Ktor`
+- [x] Implement API endpoints in `Ktor`
 - [ ] Review some `Gradle` basics
   - [ ] Add **Version Variables**
 - [x] Add newest `Gradle` with `Kotlin` and dependencies
