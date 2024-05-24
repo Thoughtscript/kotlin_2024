@@ -1,0 +1,14 @@
+services:
+  ktor:
+    build:
+      context: ./ktor
+      dockerfile: dockerfile
+    ports:
+      - '8080:8080'
+    networks:
+      - testnet
+    restart: unless-stopped
+
+networks:
+  testnet:
+    driver: bridge
