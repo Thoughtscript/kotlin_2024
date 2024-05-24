@@ -24,6 +24,7 @@ fun returnExample(who: String): String {
 // Without Braces will implicit Return
 fun implicitReturnA(who: String): String = "Hello $who"
 
+// Higher Order Functions example
 var blockCall = {
     println("test")
 }

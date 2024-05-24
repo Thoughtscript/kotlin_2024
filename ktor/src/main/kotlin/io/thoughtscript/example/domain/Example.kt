@@ -5,6 +5,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 // var and val inside a data class also restrict mutability
 // (even with automatically generated getters and setters)
+// As such, not exactly a Java Record either (since it can be mutable)
 data class Example(var id: String, var comment: String)
 
 // Define an in-memory store

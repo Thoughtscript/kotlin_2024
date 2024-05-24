@@ -1,6 +1,7 @@
 package io.thoughtscript.example
 
-// akin to Ruby on Rails Safe Call Operator
+// akin to Ruby on Rails Safe Navigation
+// Safe Call Operator
 fun safeCall(arg: Any): Unit {
     arg?.let {
         // if not-null then execute this block

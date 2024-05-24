@@ -13,7 +13,7 @@ Revisiting  `Kotlin` since it's been a while.
 docker-compose up
 ```
 
-> The `Kotlin` container will exist after starting since it just runs some code and stops.
+> The `Kotlin` container will exist after starting since it just runs some code and stops. Check the Docker logs to see the outputs and verify it's working.
 
 ## API
 
