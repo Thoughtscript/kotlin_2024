@@ -5,6 +5,12 @@
 
 Experiments with `Kotlin` and `Ktor` using `Docker` and `Gradle`.
 
+## Setup and Installation
+
+```bash
+docker-compose up
+```
+
 ## TODO 
 
 - [ ] Practice Kotlin basics
