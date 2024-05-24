@@ -46,3 +46,6 @@ docker-compose up
 6. https://www.geeksforgeeks.org/returns-jumps-and-labels-in-kotlin/
 7. https://dev.to/vtsen/understand-kotlin-function-literal-with-receiver-by-example-1d13
 8. https://kotlinlang.org/docs/lambdas.html
+9. https://www.baeldung.com/kotlin/finding-element-in-list
+10. https://www.baeldung.com/kotlin/lists
+11. https://www.baeldung.com/kotlin/static-methods
