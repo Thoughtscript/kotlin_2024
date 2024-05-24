@@ -30,3 +30,4 @@ docker-compose up
 
 1. https://kotlinlang.org/
 1. https://github.com/ktorio/ktor-documentation/tree/2.3.11/codeSnippets/snippets/tutorial-http-api
+2. https://stackoverflow.com/questions/37231560/best-way-to-null-check-in-kotlin
