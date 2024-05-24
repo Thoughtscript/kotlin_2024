@@ -5,13 +5,23 @@
 
 Experiments with `Kotlin` and `Ktor` using `Docker` and `Gradle`.
 
+Revisiting  `Kotlin` since it's been a while.
+
 ## Setup and Installation
 
 ```bash
 docker-compose up
 ```
 
-## TODO 
+> The `Kotlin` container will exist after starting since it just runs some code and stops.
+
+## API
+
+> See [./test.sh](./test.sh)
+
+## TODO Study List
+
+> Summary: build a REST CRUD API, practice some basics, and figure out all the dev env setup.
 
 - [x] Practice Kotlin basics
 - [x] Implement API endpoints in `Ktor`
