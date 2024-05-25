@@ -49,3 +49,4 @@ docker-compose up
 9. https://www.baeldung.com/kotlin/finding-element-in-list
 10. https://www.baeldung.com/kotlin/lists
 11. https://www.baeldung.com/kotlin/static-methods
+12. https://www.kodeco.com/books/kotlin-coroutines-by-tutorials/v2.0/chapters/5-async-await

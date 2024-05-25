@@ -13,5 +13,7 @@ repositories {
 }
 
 dependencies {
-
+    // These are all needed for Channels, GlobalScope.launch ...
+    runtimeOnly("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
 }

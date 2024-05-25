@@ -8,4 +8,9 @@ fun main() {
     functionExamples()
     arrayAndListExamples()
     classExamples()
+    interfacesExamples()
+    comparisonExamples()
+    enumExamples()
+
+    asynchronousExamples()
 }
