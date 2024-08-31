@@ -1,10 +1,12 @@
 package io.thoughtscript.example.language
 
-// Just Interfaces no Abstract Classes
+// Just Interfaces no Abstract Classes here
+// By default 'open'
 interface ExampleInterfaceA {
     fun testA() // Abstract Method
 
     // Can define a full Method Body like Java's Abstract Class
+    // Can't define state or embellish a constructor though
     fun testB() {
         println("I'm printing $textVal")
     }

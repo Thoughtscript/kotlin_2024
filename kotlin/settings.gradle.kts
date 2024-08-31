@@ -12,4 +12,4 @@ plugins {
 }
 
 rootProject.name = "kotlinexample"
-include("app")
+include("build")

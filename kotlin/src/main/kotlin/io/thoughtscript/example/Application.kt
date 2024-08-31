@@ -11,6 +11,7 @@ fun main() {
     interfacesExamples()
     comparisonExamples()
     enumExamples()
+    abstractClassesExamples()
 
     asynchronousExamples()
 }
