@@ -29,6 +29,16 @@ fun chainedSafeElvis(arg: Any?): Unit {
     }
 }
 
+fun nullableExample(): Unit {
+    var name: String? = "I'm not Null"
+    name = null
+
+    name?:run {
+        println("nullableExample: Null assigned to String")
+    }
+}
+
+
 /******************
  *  Run Examples  *
  ******************/
@@ -46,4 +56,6 @@ fun safeNavigationExamples(): Unit {
     safeCall(testB)
     elvis(testB)
     chainedSafeElvis(testB)
+
+    nullableExample()
 }

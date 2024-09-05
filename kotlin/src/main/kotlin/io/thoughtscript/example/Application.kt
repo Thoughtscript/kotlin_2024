@@ -12,6 +12,7 @@ fun main() {
     comparisonExamples()
     enumExamples()
     abstractClassesExamples()
+    lazyInitializationExamples()
 
     asynchronousExamples()
 }

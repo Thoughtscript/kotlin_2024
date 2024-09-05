@@ -41,7 +41,7 @@ docker-compose up
 1. https://kotlinlang.org/
 2. https://github.com/ktorio/ktor-documentation/tree/2.3.11/codeSnippets/snippets/tutorial-http-api
 3. https://stackoverflow.com/questions/37231560/best-way-to-null-check-in-kotlin
-4. https://www.baeldung.com/kotlin/void-type#:~:text=Nothing%20is%20a%20special%20type,the%20default%20return%20type%20Unit.
+4. https://www.baeldung.com/kotlin/void-type
 5. https://dev.to/nfrankel/the-pitfall-of-implicit-returns-41ln
 6. https://www.geeksforgeeks.org/returns-jumps-and-labels-in-kotlin/
 7. https://dev.to/vtsen/understand-kotlin-function-literal-with-receiver-by-example-1d13
@@ -50,3 +50,8 @@ docker-compose up
 10. https://www.baeldung.com/kotlin/lists
 11. https://www.baeldung.com/kotlin/static-methods
 12. https://www.kodeco.com/books/kotlin-coroutines-by-tutorials/v2.0/chapters/5-async-await
+13. https://kotlinlang.org/docs/classes.html#companion-objects
+1. https://www.baeldung.com/kotlin/singleton-classes
+1. https://kotlinlang.org/docs/null-safety.html#checking-for-null-in-conditions
+2. https://kotlinlang.org/docs/properties.html#late-initialized-properties-and-variables
+2. https://www.baeldung.com/kotlin/checking-lateinit

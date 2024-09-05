@@ -4,6 +4,7 @@ import kotlinx.coroutines.channels.*
 import kotlinx.coroutines.*
 
 // function to be launched
+// suspend indicates that the Function can be called in async operations, paused, or stopped
 suspend fun suspendedFunctionExampleA(text: String): String {
     println("I'm in the returned suspended function with $text")
     return "I'm done: $text"

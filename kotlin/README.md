@@ -8,6 +8,7 @@ kotlin-1  | safeCall: testA
 kotlin-1  | chainedSafeElvis: testA
 kotlin-1  | elvis: Null found
 kotlin-1  | chainedSafeElvis: Null found
+kotlin-1  | nullableExample: Null assigned to String
 kotlin-1  | ======================== Running loopExamples ========================
 kotlin-1  | value found breaking to labeled point
 kotlin-1  | value found breaking to out loop
@@ -62,6 +63,10 @@ kotlin-1  | EnumExample.A.name: A
 kotlin-1  | ======================== Running abstractClassesExamples ========================
 kotlin-1  | stringVariable: ExampleConcreteClass.stringVariableA, stringValue: ExampleConcreteClass.stringValue
 kotlin-1  | stringVariableB: stringVariableB - I'm initialized!, stringVariableC: ExampleConcreteClass.stringVariableC
+kotlin-1  | ======================== Running lazyInitializationExamples ========================
+kotlin-1  | exampleA - I'm initialized with My initialization comment
+kotlin-1  | exampleA - I'm initialized with My initialization comment
+kotlin-1  | exampleB - I'm initialized with I'm initialized
 kotlin-1  | ======================== Running asynchronousExamples ========================
 kotlin-1  | I'm in the blocking scope
 kotlin-1  | I'm in a coroutine
@@ -71,9 +76,9 @@ kotlin-1  | I'm in the returned suspended function with exampleB
 kotlin-1  | I'm in the returned suspended function with exampleC
 kotlin-1  | I'm composed: I'm done: exampleA, I'm done: exampleB, I'm done: exampleC
 kotlin-1  | Channel received: 1
+kotlin-1  | I'm in the suspended function with no return: exampleD
 kotlin-1  | Channel received: 2
 kotlin-1  | Channel received: 3
-kotlin-1  | I'm in the suspended function with no return: exampleD
 kotlin-1  | Channel received: 4
 kotlin-1  | Channel received: 5
 kotlin-1  | Channel received: 6
