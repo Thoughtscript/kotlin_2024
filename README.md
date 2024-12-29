@@ -11,6 +11,9 @@ Revisiting  `Kotlin` since it's been a while.
 
 ```bash
 docker-compose up
+
+# If using Docker Compose Engine V2:
+docker compose up
 ```
 
 > The `Kotlin` container will exist after starting since it just runs some code and stops. Check the Docker logs to see the outputs and verify it's working.
