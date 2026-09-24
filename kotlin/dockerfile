@@ -9,6 +9,7 @@ RUN apt-get update
 RUN apt-get autoremove -y 
 RUN apt-get autoclean -y
 
+RUN chmod +x ./gradlew
 RUN ./gradlew clean
 RUN ./gradlew install
 
